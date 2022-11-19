@@ -1,0 +1,1 @@
+add_library(sample_lib STATIC PIDRegulator.cpp Regulator.hpp PIDregulator.hpp)
