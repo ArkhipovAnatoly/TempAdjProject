@@ -90,7 +90,6 @@ void temperatureAdjust(PIDregulator &pid, double current, double target)
     if (pidValue == 0)
     {
       console_print("\nAdjustment is done!\n\n");
-      delay(2000);
       return;
     }
     changeTemp(pidValue, current);
